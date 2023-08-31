@@ -1,0 +1,86 @@
+body{
+    background: #393838;
+}
+.title{
+    color: blue;
+    align-items: center;
+    font-size: 30px;
+    text-decoration: underline;
+    justify-content: center;
+    display: flex;
+}
+
+.input{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#input_container{
+
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#label{
+
+    color: aqua;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-self: self-start;
+
+}
+#input_text{
+    background-color: darkgray;
+    padding: 12px;
+    border-radius: 15px;
+    color: white;
+    font-style: bold;
+    margin-top: 15px;
+}
+
+#button{
+    border: none;
+    outline: none;
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blue;
+    color: white;
+    padding: 12px;
+    border-radius: 12px;
+
+    
+
+}
+
+.taskList{
+    margin-top: 30px;
+}
+
+#container_tasks{
+    margin-top: 50px;
+}
+#task{
+    width: 40px;
+    height: 30px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin-top: 12px;
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    background-color: white;
+    border-radius: 12px;
+    padding: 12px;
+
+}
+
+

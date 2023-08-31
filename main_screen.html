@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="title">
+        <div class="container">
+            <h1>
+                <font face="Segoe UI">Todo List</font>
+            </h1>
+        </div>
+    </div>
+    <div class="input">
+        <div id="input_container">
+            <label id="label" for="fname">Add Task:</label>
+            <input autofocus  id= "input_text" type="text" id="fname" name="fname">
+            <button id = "button" type="button" onclick="addTask()">Add Task</button>
+        </div>
+    </div>
+    <div class="taskList">
+        <h1 style="color: blue;">
+            Your Tasks
+        </h1>
+        <div id="container_tasks">
+            <ul id="baap">
+                
+            </ul>
+        </div>
+    </div>
+    <script src="main.js"> </script>
+</body>
+
+</html>
